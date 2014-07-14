@@ -1,0 +1,23 @@
+{
+  "domains": [
+    {
+      "name": "HelloWorld",
+      "retention_in_days": 10
+    }
+  ],
+  "workflow_workers": [
+    {
+      "number_of_workers": 1,
+      "domain": "HelloWorld",
+      "task_list": "workflow_tasklist"
+    }
+  ],
+  "activity_workers": [
+    {
+      "number_of_workers": 1,
+      "domain": "HelloWorld",
+      "number_of_forks_per_worker": 1,
+      "task_list": "activity_tasklist"
+    }
+  ]
+}
