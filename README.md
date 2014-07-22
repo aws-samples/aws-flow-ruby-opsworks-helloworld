@@ -72,10 +72,16 @@ sample code. For example:
 
 3.  Execute the following commands, one in each of the terminal windows:
 
+    In terminal window 1:
+
     ~~~~
     aws-flow-ruby -f helloworld.json
+    ~~~~
 
-    ruby lib/hello_world_workflow_starter.rb
+    In terminal window 2:
+
+    ~~~~
+    ruby lib/hello_world_workflow_starter.rb helloworld.json
     ~~~~
 
 For More Information
