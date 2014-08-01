@@ -1,1 +1,1 @@
-require 'lib/helloworld_workflow.rb'
+require 'lib/helloworld_workflow'

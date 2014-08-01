@@ -43,9 +43,9 @@ domain = setup_domain(domain_name, retention_period)
 # Get a workflow client for HelloWorldWorkflow and start a workflow execution
 # with the required options.
 client = AWS::Flow::workflow_client(domain.client, domain) {
-  { from_class: "HelloWorldWorkflow",
-    execution_start_to_close_timeout: 60,
-    task_list: task_list_name }
+  { :from_class => "HelloWorldWorkflow",
+    :execution_start_to_close_timeout => 60,
+    :task_list => task_list_name }
 }
 
 puts "Starting a workflow execution."

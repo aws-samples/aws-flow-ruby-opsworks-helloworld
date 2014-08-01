@@ -1,1 +1,1 @@
-require 'lib/helloworld_activity.rb'
+require 'lib/helloworld_activity'
