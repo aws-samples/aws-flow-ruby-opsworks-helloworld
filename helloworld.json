@@ -1,18 +1,15 @@
 {
   "domain":
     {
-      "name": "HelloWorld",
-      "retention_in_days": 10
+      "name": "HelloWorld"
     },
   "workflow_workers": [
     {
-      "number_of_workers": 1,
       "task_list": "workflow_tasklist"
     }
   ],
   "activity_workers": [
     {
-      "number_of_workers": 1,
       "task_list": "activity_tasklist"
     }
   ]
