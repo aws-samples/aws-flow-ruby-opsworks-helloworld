@@ -7,8 +7,8 @@ class HelloWorldWorkflow
   # Define which workflows to run.
   workflow :hello do
     {
-      version: '1.2',
-      task_list: 'workflow_tasklist'
+      version: '1.0',
+      default_execution_start_to_close_timeout: 120
     }
   end
 

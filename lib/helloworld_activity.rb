@@ -7,8 +7,7 @@ class HelloWorldActivity
   # Define which activities to run.
   activity :say_hello do
     {
-      version: '1.2',
-      default_task_list: 'activity_tasklist'
+      version: '1.0',
     }
   end
 
