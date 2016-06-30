@@ -1,0 +1,2 @@
+AWS Flow Framework for Ruby: Hello World (OpsWorks) Sample Application
+Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved. 
